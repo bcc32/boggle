@@ -23,7 +23,7 @@ bool search(vector<string> board, vector< vector<bool> > visited,
         int i, int j, string word);
 
 int main(int argc, char *argv[]) {
-    string filename = "twl06.txt";
+    string filename = "wordlist";
     if (argc >= 2)
         filename = argv[1];
 

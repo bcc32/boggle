@@ -9,7 +9,7 @@ use constant moves => (
     [1, -1], [1, 0], [1, 1],
 );
 
-my $filename = "twl06.txt";
+my $filename = "wordlist";
 if (@ARGV >= 1) {
     $filename = shift @ARGV;
 }
